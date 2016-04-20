@@ -16,5 +16,7 @@
 
 ## Acknowledgements
 Vim/Git theme obtained from
-[RobieClarken/dotfiles](https://github.com/RobieClarken/dotfiles).
+[RobbieClarken/dotfiles](https://github.com/RobbieClarken/dotfiles).
 Tmux theme lifted from [nicknisi/dotfiles](https://github.com/nicknisi/dotfiles).
+Pyenv obtained from
+[yyuu/pyenv](https://github.com/yyuu/pyenv)
