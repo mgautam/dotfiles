@@ -1,0 +1,80 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+build/
+dist/
+*.egg-info/
+.cache/
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.sqlite3
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Temporary files #
+###################
+*.swp
+*.swo
+*~
+tmp
+out/
+.netrwhist
+.webassets-cache/
+.ipynb_checkpoints/
+
+# Module directories #
+######################
+node_modules/
+Pods/
+.venv/
+.venv3/
+
+# Test output #
+###############
+coverage/
+.coverage
+.tox/
+
+# Personal files #
+##################
+TODO*
+#*.ipynb
+
+# Local configuration #
+#######################
+xcuserdata/
+.dropbox
+Podfile.lock
+.lvimrc
+.coveralls.yml
