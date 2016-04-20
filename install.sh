@@ -37,3 +37,6 @@ ln -snf "$HOME/.tmux/tmux.conf" "$HOME/.tmux.conf"
 ln -snf "$HOME/.dotfiles/vim" "$HOME/.vim"
 ln -sf "$HOME/.vim/vimrc" "$HOME/.vimrc"
 vim +PluginInstall +qall
+
+
+ln -snf "$HOME/.dotfiles/pyenv" "$HOME/.pyenv"
