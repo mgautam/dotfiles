@@ -5,7 +5,12 @@ case "$os" in
   linux|cygwin)
     #assuming ubuntu/debian distros
     sudo apt-get update; 
+    # install required programs
     sudo apt-get install gnome-session-fallback vim tmux git openvpn nmap wireshark python-virtualenv lxc
+    # Requisites for pyenv
+    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev
+    # Requisites for scipy alias
+    sudo apt-get install libfreetype6-dev libpng-dev
     bash_file="$HOME/.bashrc"
   ;;
   darwin)
