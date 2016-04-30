@@ -4,7 +4,8 @@ os=$(uname -s | tr 'A-Z' 'a-z' | sed 's/_.*//')
 case "$os" in
   linux|cygwin)
     #assuming ubuntu/debian distros
-    sudo apt-get update; sudo apt-get install gnome-session-fallback vim tmux git openvpn nmap wireshark virtualenv redis rq lxc
+    sudo apt-get update; 
+    sudo apt-get install gnome-session-fallback vim tmux git openvpn nmap wireshark python-virtualenv lxc
     bash_file="$HOME/.bashrc"
   ;;
   darwin)
