@@ -6,11 +6,8 @@ case "$os" in
     #assuming ubuntu/debian distros
     sudo apt-get update; 
     # install required programs
-    sudo apt-get install gnome-session-flashback vim tmux git openvpn nmap wireshark python-virtualenv lxc
-    # Requisites for pyenv
-    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev
-    # Requisites for scipy alias
-    sudo apt-get install libfreetype6-dev libpng-dev
+    sudo apt-get install vim tmux git nmap python-virtualenv wget curl
+
     bash_file="$HOME/.bashrc"
   ;;
   darwin)
@@ -49,6 +46,3 @@ fi
 ln -snf "$HOME/.dotfiles/vim" "$HOME/.vim"
 ln -sf "$HOME/.vim/vimrc" "$HOME/.vimrc"
 vim +PluginInstall +qall
-
-
-ln -snf "$HOME/.dotfiles/pyenv" "$HOME/.pyenv"

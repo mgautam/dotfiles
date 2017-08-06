@@ -1,3 +1,5 @@
+Dotfiles for Raspberry pi
+
 ## Installation
 
 1. Clone into your home directory:

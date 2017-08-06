@@ -65,13 +65,3 @@ function ssh-copy-key {
 if [ -f ~/.bash_local ]; then
   source ~/.bash_local
 fi
-
-# Export the Environment variable for the stw-ppc
-export CROSS_COMPILE=powerpc-stw-linux-uclibc-
-export PATH=${PATH}:"/opt/powerpc-gcc-4.4.3-uclib/bin/"
-export ARCH=powerpc
-
-#export .pyenv settings
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
